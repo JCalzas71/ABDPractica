@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS PracABD1.cursos(
+    curso_id INTEGER UNIQUE NOT NULL,
+    nombre VARCHAR(15) UNIQUE NOT NULL,
+    area VARCHAR(15),
+    edicion INTEGER NOT NULL, -- 2008-2020 
+    PRIMARY KEY (curso_id)
+)
+TABLESPACE ABDDBA_TBLS_Cursos
