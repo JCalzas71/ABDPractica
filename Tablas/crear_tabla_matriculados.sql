@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS PracABD1.matriculados(
     CONSTRAINT FOREIGN KEY(curso_id)
         REFERENCES PracABD1.cursos(curso_id)
 )
-TABLESPACE ABDDBA_TBLS_Cursos
+TABLESPACE ABDDBA_TBLS_Matriculados
