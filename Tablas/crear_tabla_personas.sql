@@ -15,3 +15,4 @@ CREATE TABLE IF NOT EXISTS PracABD1.personas (
     email VARCHAR(60) -- Cuidado, pueden contener acentos y ñ. Comprobar y eliminar (ñ se sustituye por n). 
 )
 TABLESPACE ABDDBA_TBLS_Personas;
+
