@@ -5,7 +5,10 @@ ALTER TABLE pracabd1.personas
 ADD canal INTEGER;
 
 ALTER TABLE pracabd1.personas
+ADD fecha DATE;
+
+ALTER TABLE pracabd1.personas
 ADD cod_postal INTEGER;
 
-ALTER TABLE pracabd1.matriulados
+ALTER TABLE pracabd1.matriculados
 ADD matriculado INTEGER;

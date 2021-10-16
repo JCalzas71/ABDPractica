@@ -5,3 +5,5 @@ WHERE personas.canal_provisional LIKE '_';
 UPDATE pracabd1.personas
 SET personas.canal = 0
 WHERE personas.canal_provisional LIKE '';
+
+SET SQL_SAFE_UPDATES = 0;
