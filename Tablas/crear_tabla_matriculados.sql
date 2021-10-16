@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXISTS PracABD1.matriculados(
     UNIQUE (persona_id, curso_id)
 )
 TABLESPACE ABDDBA_TBLS_Matriculados
+
