@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS PracABD1.personas (
     direccion VARCHAR(60),
     localidad VARCHAR(50),
     provincia VARCHAR(30),
-    cod_postal INTEGER,
+    cod_postal_provisional VARCHAR(5) ,
     telefono CHAR(9),
     en_paro_provisional CHAR(1), -- CAMBIAR: 0: en paro y vacío activo, aunque debería ser 0 activo y 1 paro. 
     canal_provisional CHAR(1) DEFAULT 0, -- CAMBIAR: 0(null): desconocido; 1: web; 2: llamadas, 3: visitas ; 4: contactos
