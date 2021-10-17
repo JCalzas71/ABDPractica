@@ -1,1 +1,0 @@
-DROP TABLE pracabd1.cursos;
