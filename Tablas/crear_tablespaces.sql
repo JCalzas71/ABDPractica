@@ -7,4 +7,3 @@ CREATE TABLESPACE ABDDBA_TBLS_Cursos
 CREATE TABLESPACE ABDDBA_TBLS_Matriculados 
     ADD DATAFILE 'ABDDBA_DF_matriculados.ibd' Engine=InnoDB;
     
-    
