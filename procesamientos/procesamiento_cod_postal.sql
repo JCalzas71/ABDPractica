@@ -4,5 +4,5 @@ WHERE personas.cod_postal_provisional LIKE '_';
 
 UPDATE pracabd1.personas
 SET personas.cod_postal =  0
-WHERE personas.cod_postal_provisional LIKE '' 
+WHERE personas.cod_postal_provisional LIKE '';
 

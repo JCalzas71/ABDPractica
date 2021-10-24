@@ -4,4 +4,4 @@ WHERE matriculados.matriculado_provisional LIKE '1';
 
 UPDATE pracabd1.matriculados
 SET matriculados.matriculado = 0
-WHERE matriculados.matriculado_provisional LIKE ''
+WHERE matriculados.matriculado_provisional LIKE '';

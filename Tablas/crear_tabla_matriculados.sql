@@ -5,5 +5,5 @@ CREATE TABLE IF NOT EXISTS PracABD1.matriculados(
     comentarios VARCHAR(500),
     UNIQUE (persona_id, curso_id)
 )
-TABLESPACE ABDDBA_TBLS_Matriculados
+TABLESPACE ABDDBA_TBLS_Matriculados;
 
