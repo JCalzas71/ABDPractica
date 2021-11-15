@@ -1,0 +1,2 @@
+DROP USER 'Javier'@'localhost';
+
