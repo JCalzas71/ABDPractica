@@ -1,1 +1,1 @@
-CREATE ROLE 'secretario'@'localhost';
+CREATE ROLE IF NOT EXISTS 'secretario'@'localhost';

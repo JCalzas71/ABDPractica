@@ -1,1 +1,1 @@
-CREATE ROLE 'comercial'@'localhost';
+CREATE ROLE IF NOT EXISTS 'comercial'@'localhost';
