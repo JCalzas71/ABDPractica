@@ -4,5 +4,3 @@ GRANT INSERT, DELETE, SELECT, UPDATE ON pracabd1.matriculados TO 'gestor'@'local
 GRANT CREATE USER ON *.* TO 'gestor'@'localhost';
 GRANT CREATE ROLE ON *.* TO 'gestor'@'localhost';
 GRANT ROLE_ADMIN ON *.* TO 'gestor'@'localhost';
-
-SHOW GRANTS FOR 'gestor'@'localhost';

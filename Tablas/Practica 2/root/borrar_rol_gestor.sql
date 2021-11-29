@@ -1,1 +1,2 @@
 DROP ROLE gestor;
+

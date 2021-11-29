@@ -1,5 +1,8 @@
+USE pracabd1;
+
 SELECT *
-FROM pracabd1.cursos;
+FROM cursos;
+
 
 SELECT * 
 FROM pracabd1.personas
@@ -7,3 +10,5 @@ WHERE pracabd1.personas.provincia LIKE "Lugo";
 
 SELECT *
 FROM mysql.user;
+
+CREATE SCHEMA aux;
