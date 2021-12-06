@@ -1,0 +1,2 @@
+DROP VIEW IF EXISTS pracabd1.A;
+DROP VIEW IF EXISTS pracabd1.B;
