@@ -1,0 +1,10 @@
+SET autocommit = 0;
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+
+START TRANSACTION;
+SELECT * FROM personas WHERE personas.persona_id = 3;
+ROLLBACK;
+
+
+
