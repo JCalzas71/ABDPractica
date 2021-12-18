@@ -26,7 +26,11 @@ WHERE area LIKE 'Realidad Virtual';
 
 -- consultas de tipo “Insertar…”
 INSERT INTO pracabd1.A VALUES
-(123456789, 'dniPrueba', 'nombrePrueba', 'apellidoPruebaInsert', 'H', 'direccionPrueba', 'localidadPrueba', 'MADRID', 12345, 987654321, 1, 2, 0000-00-00, 'emailPruebaInsert@gmail.com');
+(123456789, 'dniPrueba', 'nombrePrueba', 'apellidoPruebaInsert', 'H', 'direccionPrueba', 'localidadPrueba', 
+'MADRID', 12345, 987654321, 1, 2, 0000-00-00, 'emailPruebaInsert@gmail.com');
 
 INSERT INTO pracabd1.B VALUES
-(123546789, 'nombrePrueba', 'areaPruebaInsert', 2020)
+(123546789, 'nombrePrueba', 'areaPruebaInsert', 2020);
+
+SELECT *
+FROM pracabd1.cursos;
